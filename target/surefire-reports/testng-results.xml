@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-14T16:29:01 IST" name="Suite" finished-at="2025-02-14T16:29:29 IST" duration-ms="27491">
+    <groups>
+    </groups>
+    <test started-at="2025-02-14T16:29:01 IST" name="Test" finished-at="2025-02-14T16:29:29 IST" duration-ms="27491">
+      <class name="TotalFoods.FirstTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TotalFoods.FirstTest@77847718]" started-at="2025-02-14T16:29:01 IST" name="setUp" finished-at="2025-02-14T16:29:08 IST" duration-ms="6401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="demo()[pri:0, instance:TotalFoods.FirstTest@77847718]" started-at="2025-02-14T16:29:08 IST" name="demo" finished-at="2025-02-14T16:29:29 IST" duration-ms="21048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TotalFoods.FirstTest@77847718]" started-at="2025-02-14T16:29:29 IST" name="tearDown" finished-at="2025-02-14T16:29:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TotalFoods.FirstTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

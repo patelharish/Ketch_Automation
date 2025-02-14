@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class SerachTest extends BaseTest {
 
-	@Test
+	//@Test
 	public void AppiumFirst() throws InterruptedException {
 
 		// supported locators: xpath,id,className,accessbilityid,androiduiautomator

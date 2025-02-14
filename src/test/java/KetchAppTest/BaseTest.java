@@ -3,6 +3,7 @@ package KetchAppTest;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import org.slf4j.Logger;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
@@ -15,6 +16,7 @@ public class BaseTest {
 	
 	public AndroidDriver driver;
 	public AppiumDriverLocalService service;
+	public static Logger log;
 	
 	@BeforeTest
 	public void setUp() throws MalformedURLException {
@@ -30,7 +32,7 @@ public class BaseTest {
 		options.setPlatformName("Android");
 		options.setAutomationName("UiAutomator2");
 		options.setDeviceName("motorola edge 50 pro");
-		options.setAppPackage("com.ketchapp");
+		options.setAppPackage("com.totalfoods");
 		// com.ketchapp.MainActivity - Ketch
 		options.setAppActivity(".MainActivity");
 		// options.setAppActivity("com.android.vending.AssetBrowserActivity");
