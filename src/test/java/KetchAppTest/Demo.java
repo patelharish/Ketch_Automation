@@ -15,7 +15,7 @@ public class Demo {
 	@Test
 	public void AppiumFirst() throws MalformedURLException {
 		// run appium server here optional
-		AppiumDriverLocalService service = new AppiumServiceBuilder().withAppiumJS(new File("C://Users//patel//AppData//Roaming//npm//node_modules//appium//build//lib//main.js"))
+		AppiumDriverLocalService service = new AppiumServiceBuilder().withAppiumJS(new File("C://Users//admin//AppData//Roaming//npm//node_modules//appium//build//lib//main.js"))
 				.withIPAddress("127.0.0.1").usingPort(4723).build();
 		service.start();
 		
@@ -23,7 +23,7 @@ public class Demo {
 		UiAutomator2Options options = new UiAutomator2Options();
         options.setPlatformName("Android");
         options.setAutomationName("UiAutomator2");
-        options.setDeviceName("Pixel 6a");
+        options.setDeviceName("motorola edge 50 pro");
         options.setAppPackage("com.ketchapp");
         //com.ketchapp.MainActivity - Ketch
         options.setAppActivity(".MainActivity");
@@ -31,6 +31,8 @@ public class Demo {
         
         AndroidDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
         //driver.quit();
+        
+        service.stop();
 		
 	}
 
