@@ -14,10 +14,13 @@ public class FirstTest extends BaseTest{
 	public void demo() throws InterruptedException {
 		
      	log = LoggerFactory.getLogger(FirstTest.class);
-		WebElement el = driver.findElement(By.className("android.widget.EditText"));
+     	Thread.sleep(3000);
+     	WebElement el = driver.findElement(By.className("android.widget.EditText"));
 		log.info("clicking on pincode input box...");
+		Thread.sleep(3000);
 		el.click();
 		log.info("Entering pincode...");
+		Thread.sleep(3000);
 		el.sendKeys("700001");
 		
 		Thread.sleep(3000);
@@ -32,7 +35,7 @@ public class FirstTest extends BaseTest{
 		
 		log.info("clicking on add to cart button...");
 		Thread.sleep(3000);
-		driver.findElement(AppiumBy.androidUIAutomator("new UiSelector().className(\"android.view.ViewGroup\").instance(40)")).click();
+		driver.findElement(By.xpath("(//android.widget.TextView[@text=\"Add To Cart\"])[2]")).click();
 		
 		log.info("clicking on cart button...");
 		Thread.sleep(3000);

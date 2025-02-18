@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-14T16:28:14 IST" name="Default suite" finished-at="2025-02-14T16:28:42 IST" duration-ms="28540">
+  <suite started-at="2025-02-18T12:34:01 IST" name="Default suite" finished-at="2025-02-18T12:34:59 IST" duration-ms="58529">
     <groups>
     </groups>
-    <test started-at="2025-02-14T16:28:14 IST" name="Default test" finished-at="2025-02-14T16:28:42 IST" duration-ms="28540">
-      <class name="TotalFoods.FirstTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TotalFoods.FirstTest@367ffa75]" started-at="2025-02-14T16:28:14 IST" name="setUp" finished-at="2025-02-14T16:28:21 IST" duration-ms="7230" status="PASS">
+    <test started-at="2025-02-18T12:34:01 IST" name="Default test" finished-at="2025-02-18T12:34:59 IST" duration-ms="58529">
+      <class name="KetchAppTest.PlpTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:KetchAppTest.PlpTest@55fe41ea]" started-at="2025-02-18T12:34:01 IST" name="setUp" finished-at="2025-02-18T12:34:38 IST" duration-ms="36796" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="demo()[pri:0, instance:TotalFoods.FirstTest@367ffa75]" started-at="2025-02-14T16:28:21 IST" name="demo" finished-at="2025-02-14T16:28:42 IST" duration-ms="21249" status="PASS">
+        <test-method signature="plpfilter()[pri:0, instance:KetchAppTest.PlpTest@55fe41ea]" started-at="2025-02-18T12:34:38 IST" name="plpfilter" finished-at="2025-02-18T12:34:59 IST" duration-ms="21603" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TotalFoods.FirstTest@367ffa75]" started-at="2025-02-14T16:28:42 IST" name="tearDown" finished-at="2025-02-14T16:28:42 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- plpfilter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:KetchAppTest.PlpTest@55fe41ea]" started-at="2025-02-18T12:34:59 IST" name="tearDown" finished-at="2025-02-18T12:34:59 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TotalFoods.FirstTest -->
+      </class> <!-- KetchAppTest.PlpTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

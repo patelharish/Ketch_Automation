@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TotalFoods.FirstTest">
+      <class name="KetchAppTest.PlpTest">
         <methods>
-          <include name="demo"/>
+          <include name="plpfilter"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- TotalFoods.FirstTest -->
+      </class> <!-- KetchAppTest.PlpTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
