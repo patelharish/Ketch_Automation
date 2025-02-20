@@ -3,7 +3,9 @@ package KetchAppTest;
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.Duration;
 
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -19,6 +21,7 @@ public class BaseTest {
 	public AndroidDriver driver;
 	public AppiumDriverLocalService service;
 	public static Logger log;
+	public WebDriverWait wait;
 	
 	@BeforeTest
 	public void setUp() throws MalformedURLException {
@@ -40,6 +43,8 @@ public class BaseTest {
 		// options.setAppActivity("com.android.vending.AssetBrowserActivity");
 
 		driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
+		
+		wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 	}
 
 	@AfterTest

@@ -1,3 +1,5 @@
-KetchAppTest\BaseTest.class
 KetchAppTest\SerachTest.class
+KetchAppTest\AddToCartTest.class
+KetchAppTest\PlpTest.class
+KetchAppTest\BaseTest.class
 TotalFoods\FirstTest.class

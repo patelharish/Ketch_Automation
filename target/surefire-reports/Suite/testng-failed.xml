@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="TotalFoods.FirstTest">
+      <class name="KetchAppTest.AddToCartTest">
         <methods>
-          <include name="demo"/>
+          <include name="addToCart"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- TotalFoods.FirstTest -->
+      </class> <!-- KetchAppTest.AddToCartTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
