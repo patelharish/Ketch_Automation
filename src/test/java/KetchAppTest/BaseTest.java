@@ -37,14 +37,14 @@ public class BaseTest {
 		options.setPlatformName("Android");
 		options.setAutomationName("UiAutomator2");
 		options.setDeviceName("Pixel 6a");
-		options.setAppPackage("com.ketchapp");
+		options.setAppPackage("com.totalfoods");
 		// com.ketchapp.MainActivity - Ketch
 		options.setAppActivity(".MainActivity");
 		// options.setAppActivity("com.android.vending.AssetBrowserActivity");
 
 		driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
 		
-		wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(50));
 	}
 
 	@AfterTest

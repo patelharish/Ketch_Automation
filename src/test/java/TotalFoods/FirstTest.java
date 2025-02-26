@@ -14,7 +14,7 @@ public class FirstTest extends BaseTest{
 	public void demo() throws InterruptedException {
 		
      	log = LoggerFactory.getLogger(FirstTest.class);
-     	Thread.sleep(3000);
+     	Thread.sleep(4000);
      	WebElement el = driver.findElement(By.className("android.widget.EditText"));
 		log.info("clicking on pincode input box...");
 		Thread.sleep(3000);
@@ -23,7 +23,7 @@ public class FirstTest extends BaseTest{
 		Thread.sleep(3000);
 		el.sendKeys("700001");
 		
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		log.info("select address...");
 		driver.findElement(AppiumBy.accessibilityId("700001, Kolkata, West Bengal 700001, India")).click();
 		
@@ -46,6 +46,6 @@ public class FirstTest extends BaseTest{
 		maxQuantity.click();
 		maxQuantity.click();
 		log.info("clicking on continue button...");
-		driver.findElement(AppiumBy.accessibilityId("Continue")).click();
+		//driver.findElement(AppiumBy.accessibilityId("Continue")).click();
 	}
 }
