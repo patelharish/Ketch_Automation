@@ -23,14 +23,15 @@ public class FirstTest extends BaseTest{
 		Thread.sleep(3000);
 		el.sendKeys("700001");
 		
-		Thread.sleep(4000);
 		log.info("select address...");
+		Thread.sleep(3000);
 		driver.findElement(AppiumBy.accessibilityId("700001, Kolkata, West Bengal 700001, India")).click();
 		
 		log.info("clicking on continue button...");
 		driver.findElement(AppiumBy.androidUIAutomator("new UiSelector().text(\"Continue\")")).click();
-		Thread.sleep(3000);
+		
 		log.info("clicking on any home product category...");
+		Thread.sleep(3000);
 		driver.findElement(AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.ImageView\").instance(8)")).click();
 		
 		log.info("clicking on add to cart button...");
